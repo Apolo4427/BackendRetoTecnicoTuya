@@ -1,0 +1,14 @@
+@baseUrl = http://localhost:5000
+
+### Create order (reemplaza <GUID> por el id del customer)
+POST {{baseUrl}}/orders
+Content-Type: application/json
+
+{
+  "customerId": "<GUID>",
+  "description": "Laptop",
+  "total": 1500
+}
+
+### Cancel order (reemplaza <ORDER_GUID>)
+POST {{baseUrl}}/orders/<ORDER_GUID>/cancel

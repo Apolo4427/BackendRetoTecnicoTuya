@@ -1,0 +1,41 @@
+# Build outputs
+bin/
+obj/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Secrets / local env
+**/.env
+**/.env.*
+!.env.example
+
+# Test results / coverage
+TestResults/
+*.trx
+coverage*
+
+
+# ASP.NET Core
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+
+# NuGet
+*.nupkg
+

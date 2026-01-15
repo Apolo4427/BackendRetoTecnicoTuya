@@ -1,0 +1,13 @@
+@baseUrl = http://localhost:5000
+
+### Get all customers
+GET {{baseUrl}}/customers
+
+### Create customer
+POST {{baseUrl}}/customers
+Content-Type: application/json
+
+{
+  "name": "Ana",
+  "email": "ana@test.com"
+}

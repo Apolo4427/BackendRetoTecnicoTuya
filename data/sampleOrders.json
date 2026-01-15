@@ -1,0 +1,4 @@
+[
+  { "customerId": "<GUID>", "description": "Laptop", "total": 1500 },
+  { "customerId": "<GUID>", "description": "Mouse", "total": 50 }
+]
