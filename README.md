@@ -123,7 +123,7 @@ Incluye tests unitarios para `OrderService` usando **xUnit** + **Moq**.
 
 ---
 
-## Notas de diseño (para sustentación)
+## Notas de diseño
 - Reglas de negocio en el **dominio**: `Customer.CreateOrder(...)` y `Order.Cancel()`.
 - Orquestación en **Application**: `OrderService` valida existencia y persiste.
 - Infra desacoplada mediante **repositorios** y DI.
